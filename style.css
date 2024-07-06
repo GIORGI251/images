@@ -1,62 +1,203 @@
-.header {
-    width:1200px ;
-    height:113px ;
-    margin-top:31px ;
-    margin-left:300px ;
+* {
+    box-sizing: border-box;
 }
 
-.img1 {
-    width:1500px ;
-    height:562px ;
-    margin-top:150pxpx ;
-    margin-left:60px ;
+body {
+    margin: 0;
 }
 
-.header2 {
-    width:1200px ;
-    height:70px ;
-    margin-top:100px ;
-    margin-left:270px ; 
+
+
+@font-face {
+    font-family: Roboto ;
+    src: url(fonts/Roboto-Regular.ttf);
 }
 
-.img2 {
-    width:1200px ;
-    height:648px ;
-    margin-top:100px ;
-    margin-left:280px ;
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
+.icon {
+    width:20px ;
+    height:19px ;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.Coral {
+    margin: auto;
+}
+
+.parent {
+    display: flex;
+}
+
+.box1 {
+    display: flex;
+}
+
+.button {
+    border: none;
+    font-size: 18px;
+    font-family: roboto;
+}
+
+.button2 {
+    border: none;
+    font-size: 18px;
+    font-family: roboto;
+}
+   
+
+.icon1 {
+    width:20px ;
+    height:20px ;
+    margin-top: 18px;
+    margin-left: -25px;
+}
+
+.icon2 {
+    width:20px ;
+    height:20px ;
+    align-items: center;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.box2 {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+@font-face {
+    font-family: OpenSans ;
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.heading {
+    font-family: OpenSans;
+    display: flex;
+    gap: 20px;
+}
+
+.box3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3-1 {
+    width: 1226px;
+    height: 562px;
+    display: flex;
+    gap: 98px;
+}
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4-1 {
+    position: relative;
+    width: 1320px;
+    display: flex;
+    margin-top: 50px;
+}
+.box5 {
+    margin: 0 550px;
+} 
+.box6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;7yu
+}
+
+.heading2 {
+    font-size: 74px;
+    font-family: Roboto ;
+}
+.heading3 {
+    font-size: 50px;
+    text-align: center;
+}
+.heading4 {
+    font-size: 34px;
+    font-family: Roboto;
+    position: absolute;
+    left: -248px;
+    top: 245px;
+    transform: rotate(-90deg);
+    margin: 0;
+}
+.shopNowBtn {
+    width: 223px;
+    height: 72px;
+    border: none;
+    background-color: #1E2832;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+.Filter {
+    width: 92px;
+    height: 32px;
+    border: none;
+    background-color: #1E2832;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 30px;
+}
+.img8 {
+    width:312px ;
+    height:312px ;
+    margin-left: 1100px;
+    margin-top: -310px;
+}
 .img3 {
-    width:1200px ;
-    height:648px ;
-    margin-top:100px ;
-    margin-left:280px ;
+    width: 1320px;
+    margin-left: 80px;
+    margin-top: 80px;
 }
 
-.img4 {
-    width:1500px ;
-    height:776px ;
-    margin-top:100px ;
-    margin-left:150px ;
+.button3 {
+    border: none;
+    font-size: 29px;
+    font-family: roboto;
+    background-color: rgba(30, 40, 50, 1);
+    color: White;
+    display: flex;
+    width: 223px;
+    height: 72px;
+    background-image: url(fotos/icon2.png);
 }
 
-.img5 {
-    width:1000px ;
-    height:639px ;
-    margin-top:100px ;
-    margin-left:380px ;
-}
 
-.img6 {
-    width:1500px ;
-    height:754px ;
-    margin-top:100px ;
-    margin-left:150px ;
-}
+.list {
+    list-style: none;
+    width: 330px;
+    margin-left: -30px;
+    }
 
-.img7 {
-    width:1500px ;
-    height:355px ;
-    margin-top:100px ;
-    margin-left:150px ;
+.nav_links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-left: -480px;
 }
