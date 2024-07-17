@@ -1,203 +1,214 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto-Light.ttf');
+}
+
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
-    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
-
-
-@font-face {
-    font-family: Roboto ;
-    src: url(fonts/Roboto-Regular.ttf);
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-
-
-.box {
+.container2 {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+.container3 {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+.container4 {
+    max-width: 1320px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
 }
-
-.icon {
-    width:20px ;
-    height:19px ;
-    margin-left: 120px;
-    margin-top: 40px;
-}
-
-.Coral {
-    margin: auto;
-}
-
-.parent {
+.container5 {
+    max-width: 1320px;
     display: flex;
-}
-
-.box1 {
-    display: flex;
-}
-
-.button {
-    border: none;
-    font-size: 18px;
-    font-family: roboto;
-}
-
-.button2 {
-    border: none;
-    font-size: 18px;
-    font-family: roboto;
-}
-   
-
-.icon1 {
-    width:20px ;
-    height:20px ;
-    margin-top: 18px;
-    margin-left: -25px;
-}
-
-.icon2 {
-    width:20px ;
-    height:20px ;
-    align-items: center;
-    margin-top: 18px;
-    margin-left: 20px;
-}
-
-.box2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    text-decoration: none;
+    font-family: Open Sans;
     font-size: 16px;
-    color: rgba(0, 0, 0, 1);
-    margin-left: 120px;
-    margin-top: 40px;
+    font-weight: 600;
+    line-height: 21.79px;
 }
 
-@font-face {
-    font-family: OpenSans ;
-    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
-}
-
-.heading {
-    font-family: OpenSans;
-    display: flex;
-    gap: 20px;
-}
-
-.box3 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.box3-1 {
-    width: 1226px;
-    height: 562px;
-    display: flex;
-    gap: 98px;
-}
-.box4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.box4-1 {
+header {
+    background-color: #f4f4f5;
     position: relative;
-    width: 1320px;
-    display: flex;
-    margin-top: 50px;
-}
-.box5 {
-    margin: 0 550px;
-} 
-.box6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;7yu
+    padding-top: 31px;
 }
 
-.heading2 {
-    font-size: 74px;
-    font-family: Roboto ;
-}
-.heading3 {
-    font-size: 50px;
-    text-align: center;
-}
-.heading4 {
-    font-size: 34px;
-    font-family: Roboto;
+header .frame {
     position: absolute;
-    left: -248px;
-    top: 245px;
-    transform: rotate(-90deg);
-    margin: 0;
-}
-.shopNowBtn {
-    width: 223px;
-    height: 72px;
-    border: none;
-    background-color: #1E2832;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    cursor: pointer;
-}
-.Filter {
-    width: 92px;
-    height: 32px;
-    border: none;
-    background-color: #1E2832;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 24px;
-    cursor: pointer;
 }
 
-.text {
-    font-size: 30px;
-}
-.img8 {
-    width:312px ;
-    height:312px ;
-    margin-left: 1100px;
-    margin-top: -310px;
-}
-.img3 {
-    width: 1320px;
-    margin-left: 80px;
-    margin-top: 80px;
+header .frame:first-of-type {
+    right: 0;
+    bottom: 156px;
 }
 
-.button3 {
-    border: none;
-    font-size: 29px;
-    font-family: roboto;
-    background-color: rgba(30, 40, 50, 1);
-    color: White;
+header .frame:last-child {
+    left: 0;
+    bottom: 156px;
+}
+
+nav {
+    margin-bottom: 81px;
+}
+
+
+
+nav .nav_top {
     display: flex;
-    width: 223px;
-    height: 72px;
-    background-image: url(fotos/icon2.png);
+    justify-content: space-between;
+    padding-bottom: 25px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+nav .nav_bottom ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+}
+
+nav .nav_bottom ul a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+
+nav .nav_top .profile a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #1E2832;
+}
+
+nav .nav_top .profile a:first-child {
+    margin-right: 22px;
 }
 
 
 .list {
-    list-style: none;
-    width: 330px;
-    margin-left: -30px;
-    }
-
-.nav_links {
-    list-style: none;
     display: flex;
-    gap: 2rem;
-    margin-left: -480px;
+    padding: 0;
+    list-style: none;   
+    margin-top: 50px;
+}
+.list1 {
+    color: rgba(30, 40, 50, 1);
+}
+.list2 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: rgba(30, 40, 50, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    width: 92px;
+    height: 32px;
+}
+.box2 {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+}
+.box {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 94px;
+}
+
+.home_left {
+    padding-top: 74px;
+}
+
+.home_left h1 {
+    margin-bottom: 52px;
+    font-family: 'Roboto';
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 55px;
+}
+
+.home_left p {
+    margin-bottom: 66px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 55px;
+    color: #000000;
+}
+.home_left button {
+    background-color: #1E2832;
+    font-family: 'Roboto';
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 33.8px;
+    color: #fff;
+    height: 72px;
+    padding-left: 26px;
+    padding-right: 26px;
+    border: 0;
+    cursor: pointer;
+}
+
+    
+
+
+.text {
+    font-size: 34px;
+    font-family: Roboto;
+    position: absolute;
+    transform: rotate(-90deg);
+    margin-left: -350px;
+    margin-top: 280px;
+}
+.text2 {
+    font-size: 50px;
+    text-align: center;
+    font-family:Open Sans ;
+}
+
+.satauri {
+    width: 100%;
+}
+.text3 {
+    text-align: center;
+    font-size: 50px;
 }
