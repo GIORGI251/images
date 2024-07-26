@@ -5,11 +5,11 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 .container {
@@ -38,7 +38,6 @@ body {
 }
 .container5 {
     max-width: 1320px;
-    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
@@ -116,7 +115,6 @@ nav .nav_top .profile a:first-child {
     display: flex;
     padding: 0;
     list-style: none;   
-    margin-top: 50px;
 }
 .list1 {
     color: rgba(30, 40, 50, 1);
@@ -137,16 +135,12 @@ a:link {
     width: 92px;
     height: 32px;
 }
-.box2 {
-    width: 100%;
-    display: flex;
-    justify-content: end;
-    margin-top: 50px;
-}
+
 .box {
     width: 100%;
     display: flex;
     margin: auto;
+    justify-content: space-between;
 }
 .home {
     display: flex;
@@ -212,3 +206,35 @@ a:link {
     text-align: center;
     font-size: 50px;
 }
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.parent1 {
+    display: flex;
+}
+.parent2 {
+    display: flex;
+}
+
+
+.productName {
+    font-family: "open sans";
+    color: rgba(0, 0, 0, 0.5);
+}
+.productPrice {
+    font-family: "open sans";
+    color: rgba(0, 0, 0, 1);
+}
+.productPrice3 {
+    font-family: "open sans";
+    color: rgba(255, 111, 97, 1);
+}
+
