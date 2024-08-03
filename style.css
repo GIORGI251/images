@@ -241,18 +241,17 @@ a:link {
     color: rgba(0, 0, 0, 1);
     text-align: end;
     margin-top: -33px;
-    margin-right: 150px;
+    margin-right: 90px;
 }
 .productPrice3 {
     font-family: "open sans";
     color: rgba(255, 111, 97, 1);
     text-align: end;
     display: flex;
-    margin-left: 220px;
+    margin-left: 280px;
     margin-top: -33px;
 }
 .h6 {
     margin-left: 50px;
     font-size: 16px;
 }
-
