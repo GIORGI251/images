@@ -47,6 +47,17 @@ body {
     font-weight: 600;
     line-height: 21.79px;
 }
+.container6 {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+}
 
 header {
     background-color: #f4f4f5;
@@ -229,12 +240,13 @@ a:link {
     font-family: "open sans";
     color: rgba(0, 0, 0, 0.5);
     margin-left: 50px;
+    margin-top: -20px;
 }
 .productPrice {
     font-family: "open sans";
     color: rgba(0, 0, 0, 1);
     text-align: end;
-    margin-top: -33px;
+    margin-top: -40px;
 }
 .productPrice02 {
     font-family: "open sans";
@@ -249,9 +261,10 @@ a:link {
     text-align: end;
     display: flex;
     margin-left: 280px;
-    margin-top: -33px;
+    margin-top: -40px;
 }
 .h6 {
     margin-left: 50px;
     font-size: 16px;
 }
+
