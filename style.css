@@ -58,6 +58,18 @@ body {
     font-weight: 600;
     line-height: 21.79px;
 }
+.container7 {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+}
+
 
 header {
     background-color: #f4f4f5;
@@ -246,34 +258,35 @@ a:link {
     font-family: "open sans";
     color: rgba(0, 0, 0, 1);
     text-align: end;
-    margin-top: -40px;
+    display: inline-block;
 }
 .productPrice02 {
     font-family: "open sans";
     color: rgba(0, 0, 0, 1);
     text-align: end;
-    margin-top: -33px;
-    margin-right: 90px;
+    display: inline-block;
 }
 .productPrice3 {
     font-family: "open sans";
     color: rgba(255, 111, 97, 1);
     text-align: end;
-    display: flex;
-    margin-left: 280px;
-    margin-top: -40px;
+    display: inline-block;
 }
 .h6 {
     margin-left: 50px;
     font-size: 16px;
 }
-
 .zara {
-    height: 776px;
+    width: 100%;
 }
 .zaralogo {
     width: 191px;
     height: 81px;
     margin-top: -433px;
     margin-left: 500px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
